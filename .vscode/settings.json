@@ -1,0 +1,47 @@
+{
+  "html.format.wrapLineLength": 0,
+  "html.format.enable": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/storybook-static": true
+  },
+  "files.refactoring.autoSave": false,
+  "search.exclude": {
+    "**/.yarn": true,
+    "yarn.lock": true,
+    "node_modules": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "never"
+  },
+  "javascript.validate.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    },
+    "editor.formatOnSave": true
+  },
+  "[typescript][js]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always"
+    },
+    "editor.formatOnSave": true
+  },
+  "html.format.wrapAttributes": "preserve-aligned",
+  "[json][jsonc][yaml][xml]": {
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autorefresh": true,
+  "editor.linkedEditing": false,
+  "editor.autoClosingDelete": "never",
+  "prettier.ignorePath": ".gitignore"
+}

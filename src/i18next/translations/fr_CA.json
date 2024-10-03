@@ -1,0 +1,15 @@
+{
+  "layout": {
+    "scheduler": "Planificatrice",
+    "configuration": "Configuration",
+    "admin": "Admin",
+    "lock": "Verrouiller",
+    "logout": "Déconnexion"
+  },
+  "lockScreen": {
+    "unlock": "Déverrouiller"
+  },
+  "loginScreen": {
+    "signIn": "Se connecter"
+  }
+}

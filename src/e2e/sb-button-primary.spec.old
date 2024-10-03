@@ -1,0 +1,8 @@
+import { expect, test } from '@playwright/test'
+
+test('storybook-button-primary has title', async ({ page }) => {
+  await page.goto('http://localhost:6006/?path=/story/button--base')
+
+  // Expect the title "to contain" a substring.
+  await expect(page).toHaveTitle(/Button - Base ⋅ Storybook/)
+})

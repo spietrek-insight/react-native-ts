@@ -1,0 +1,15 @@
+{
+  "layout": {
+    "scheduler": "Scheduler",
+    "configuration": "Configuration",
+    "admin": "Admin",
+    "lock": "Lock",
+    "logout": "Logout"
+  },
+  "lockScreen": {
+    "unlock": "Unlock"
+  },
+  "loginScreen": {
+    "signIn": "Sign In"
+  }
+}

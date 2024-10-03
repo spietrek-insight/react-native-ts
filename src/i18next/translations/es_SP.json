@@ -1,0 +1,15 @@
+{
+  "layout": {
+    "scheduler": "Programadora",
+    "configuration": "Configuración",
+    "admin": "Admin",
+    "lock": "Bloquear",
+    "logout": "Cerrar sesión"
+  },
+  "lockScreen": {
+    "unlock": "Desbloquear"
+  },
+  "loginScreen": {
+    "signIn": "Iniciar sesión"
+  }
+}
