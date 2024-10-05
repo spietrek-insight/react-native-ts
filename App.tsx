@@ -1,14 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native'
 
-export default function App() {
+import { registerRootComponent } from 'expo'
+
+import Constants from 'expo-constants'
+
+import Storybook from './.ondevice'
+
+function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
     </View>
-  );
+  )
 }
+
+console.log(Constants)
+
+if (__DEV__ && Constants.expoConfig?.extra?.storybookEnabled) {
+  registerRootComponent(Storybook)
+}
+
+export default App
 
 const styles = StyleSheet.create({
   container: {
@@ -17,4 +29,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
